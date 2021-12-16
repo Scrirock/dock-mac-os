@@ -1,0 +1,21 @@
+{
+  "srcDir": "assets/js",
+  "srcFiles": [
+    "**/*.?(m)js"
+  ],
+  "specDir": "assets",
+  "specFiles": [
+    "**/__test__/*[sS]pec.?(m)js"
+  ],
+  "helpers": [
+    "**/__test__/helpers/**/*.?(m)js"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "stopOnSpecFailure": false,
+    "random": true
+  },
+  "browser": {
+    "name": "firefox"
+  }
+}
